@@ -1,6 +1,7 @@
 import pygame
 import sys
 
+#Game file
 
 class Game(object):
 
