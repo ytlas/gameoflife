@@ -1,7 +1,7 @@
 import pygame
 import sys
 
-#Game file
+#Game file poop
 
 class Game(object):
 
