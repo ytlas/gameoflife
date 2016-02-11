@@ -1,7 +1,7 @@
 import pygame
 import sys
 
-#Game file poop
+#Game file poop FUCK ADAM
 
 class Game(object):
 
