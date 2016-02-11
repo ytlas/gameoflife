@@ -1,0 +1,15 @@
+GIT
+
+git clone https://github.com/ytlas/gameoflife [/path/to/directory]
+
+git add filnamn
+
+git add -A
+
+git commit -a -m "Vad du vill säga om din push"
+
+git pull //Uppdaterar filerna i lokala directoryn
+
+git push //Laddar upp filerna i servern
+
+git rm filnamn
