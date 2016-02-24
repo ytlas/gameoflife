@@ -23,4 +23,4 @@ class Game(object):
         self.window.fill((255, 0, 0))
         pygame.display.flip()
 
-pacman = Game()
+gof = Game()
