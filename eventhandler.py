@@ -12,3 +12,4 @@ class EventHandler(object):
             elif event.type == pygame.MOUSEBUTTONUP:
                 pos = pygame.mouse.get_pos()
                 print(pos)
+            
