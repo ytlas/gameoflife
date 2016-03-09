@@ -7,8 +7,8 @@ from map import Map
 class Game(object):
     def __init__(self):
         pygame.init()
-        self.width = 300
-        self.height = 300
+        self.width = 500
+        self.height = 500
         self.window = pygame.display.set_mode((self.width, self.height))
         self.clock = pygame.time.Clock()
         self.map = Map(width=self.width,height=self.height)
@@ -20,7 +20,7 @@ class Game(object):
     def update(self):
         pass
     def draw(self):
-        self.window.fill((255, 0, 0))
+        self.window.fill((255, 255, 255))
         pygame.display.flip()
 
 gof = Game()
